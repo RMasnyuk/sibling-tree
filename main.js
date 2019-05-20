@@ -15,5 +15,3 @@ if (target.nodeName === 'SPAN') {
     childrenUL.hidden = !childrenUL.hidden;
 }
 }
-
-
