@@ -7,8 +7,8 @@ for (let i = 0; i < li.length; i++ ) {
     span.append(span.nextSibling);
 }
 
-outerUL.addEventListener('click', change);
-function change (event) {
+outerUL.addEventListener('click', hideElements);
+function hideElements (event) {
 const target = event.target;
 if (target.nodeName === 'SPAN') {
     let childrenUL = target.parentNode.querySelector('ul');
